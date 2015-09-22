@@ -35,7 +35,7 @@ socket.on('chat message', function(msg){
 	$('#messages').append($('<li>').text(msg));
 });
 
-socket.on('greet', function(msg){
+socket.on('greetings', function(msg){
 	$('#welcome').text(msg);
 })
 </script>
